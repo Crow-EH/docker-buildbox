@@ -7,10 +7,10 @@ ci_helper_test: &ci_helper_test ci-helper version -e
 MODD_VERSION: &MODD_VERSION 0.5
 
 ansible:
-  "2.5.5":
+  "2.9.2":
     build_args:
       CI_HELPER_VERSION: *CI_HELPER_VERSION
-      VERSION: 2.5.5
+      VERSION: 2.9.2
     test_config:
       cmd:
         - *ci_helper_test
