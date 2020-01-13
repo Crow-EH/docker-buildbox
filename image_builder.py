@@ -13,6 +13,8 @@ def build(image, version, debug):
 
     # Get env variables
     env_conf = config.load_ci_env(True)
+    if env_conf["docker_reg_username"] == "mySecretUsername" and env_conf["docker_reg_password"] == "mySecretPassword":
+        print("The secrets were correctly imported")
 
     # Get image configuration
     try:
