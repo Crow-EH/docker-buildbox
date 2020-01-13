@@ -8,7 +8,7 @@ on:
   release:
     types: [published]
   schedule:
-    - cron: "20 14 * * *"
+    - cron: "25 14 * * *"
 
 jobs:
   build:

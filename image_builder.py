@@ -12,7 +12,7 @@ import src.docker_image as docker
 def build(image, version, debug):
 
     # Get env variables
-    env_conf = config.load_ci_env(true)
+    env_conf = config.load_ci_env(True)
 
     # Get image configuration
     try:
