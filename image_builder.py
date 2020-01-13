@@ -12,7 +12,7 @@ import src.docker_image as docker
 def build(image, version, debug):
 
     # Get env variables
-    env_conf = config.load_ci_env(debug)
+    env_conf = config.load_ci_env(true)
 
     # Get image configuration
     try:
@@ -52,7 +52,7 @@ def build(image, version, debug):
     if (
         env_conf["tag"] != ""
         or (env_conf["event_type"] != "pull_request" and env_conf["branch"] == "master")
-        or env_conf["event_type"] == "cron"
+        or env_conf["event_type"] == "schedule"
     ):
         # Login to registry
         docker.login_to_registry(env_conf)
