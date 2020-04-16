@@ -11,7 +11,7 @@ import src.docker_image as docker
 @click.option("--debug", "-d", is_flag=True, help="debug")
 def build(image, version, debug):
 
-    # Get env variables
+    # Get env variables test
     env_conf = config.load_ci_env(debug)
 
     # Get image configuration
