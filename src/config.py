@@ -7,7 +7,7 @@ from yaml import Loader
 
 
 def load_ci_env(debug):
-    print("> [Info] Gathering env variables")
+    print("> [Info] Gathering env variables test")
     event = os.environ.get("GITHUB_EVENT_NAME", "")
     ref = os.environ.get("GITHUB_REF", "").replace("refs/heads/", "").replace("refs/tags/", "")
     build_info = {
