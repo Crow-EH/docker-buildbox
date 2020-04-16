@@ -4,4 +4,5 @@ ARG ANSIBLE_VERSION
 
 RUN pip install ansible==${ANSIBLE_VERSION} pipenv awscli boto3 && \
     pip install -U pip && \
-    rm -rf /var/cache/apk/*
+    rm -rf /var/cache/apk/* && \
+    echo test
