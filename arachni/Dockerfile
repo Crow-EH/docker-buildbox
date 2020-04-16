@@ -21,4 +21,4 @@ RUN echo "Starting ..." && \
     apt-get -qq clean && apt-get -qq purge && \
     rm -rf /var/lib/apt/lists/* /var/lib/dpkg/*-old && \
     rm -rf /usr/share/doc && \
-    echo "Done!"
+    echo "Test Done!"
