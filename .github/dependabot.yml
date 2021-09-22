@@ -305,7 +305,7 @@ updates:
   - package-ecosystem: "docker"
     directory: "/python/3.6"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     labels:
       - "dependencies"
       - "docker"
