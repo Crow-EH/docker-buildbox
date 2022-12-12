@@ -1,4 +1,4 @@
-FROM python:3.12.0a2-slim-buster
+FROM python:3.12.0a3-slim-buster
 
 LABEL maintainer="Axel Pavageau <axel.pavageau@ekino.com>"
 
