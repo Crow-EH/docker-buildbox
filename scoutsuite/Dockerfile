@@ -1,4 +1,4 @@
-FROM python:3.11.0rc2-slim-buster
+FROM python:3.12.0a4-slim-buster
 
 ADD requirements.txt .
 
