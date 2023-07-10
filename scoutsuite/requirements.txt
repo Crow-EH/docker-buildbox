@@ -1,1 +1,1 @@
-scoutsuite==5.12.0
+scoutsuite==5.13.0
