@@ -1,4 +1,4 @@
-FROM alpine:3.18.2
+FROM alpine:3.18.3
 LABEL maintainer="Maxime Sibellas <maxime.sibellas@ekino.com>"
 
 ARG EKSCTL_VERSION
