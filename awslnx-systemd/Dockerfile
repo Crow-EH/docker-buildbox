@@ -1,4 +1,4 @@
-FROM amazonlinux:2.0.20250610.0
+FROM amazonlinux:2.0.20250707.0
 LABEL maintainer="Maxime Sibellas"
 ENV container=docker
 
